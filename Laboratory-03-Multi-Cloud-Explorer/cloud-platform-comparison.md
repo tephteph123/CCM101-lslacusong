@@ -36,7 +36,6 @@ different types of projects. I also prefer AWS because I can use one platform
 to practice computing, storage, networking, databases, and other cloud
 technologies.
 ## Equivalent Cloud Services
-
 | Service Category | AWS | Azure | GCP |
 |---|---|---|---|
 | Virtual Machine | Amazon EC2 | Azure Virtual Machines | Compute Engine |
