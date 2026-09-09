@@ -4,10 +4,8 @@
 |---|---|
 | Operating System | Ubuntu 24.04.4 LTS |
 | CPU | 1 CPU — Intel Xeon E312xx (Sandy Bridge, IBRS update) |
-| Total Memory | 1.9 GiB |
-| Available Memory | 1.4 GiB |
+| Memory | 1.9 GiB |
 | Disk Space | 19G total, 13G available |
-| Disk Usage | 30% |
 
 ### Cloud Migration
 
