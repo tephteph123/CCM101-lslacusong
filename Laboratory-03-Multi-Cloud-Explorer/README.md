@@ -1,7 +1,3 @@
-## Checkpoint 7 – Linux Server Investigation
-
-The Linux server was investigated using Linux commands to identify its operating system, CPU, memory, and disk space.
-
 ### Linux System Information
 
 | Information | Details |
