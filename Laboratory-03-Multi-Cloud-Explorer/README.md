@@ -1,0 +1,24 @@
+## Checkpoint 7 – Linux Server Investigation
+
+The Linux server was investigated using Linux commands to identify its operating system, CPU, memory, and disk space.
+
+### Linux System Information
+
+| Information | Details |
+|---|---|
+| Operating System | Ubuntu 24.04.4 LTS |
+| CPU | 1 CPU — Intel Xeon E312xx (Sandy Bridge, IBRS update) |
+| Total Memory | 1.9 GiB |
+| Available Memory | 1.4 GiB |
+| Disk Space | 19G total, 13G available |
+| Disk Usage | 30% |
+
+### Cloud Migration
+
+If this Linux server were migrated to the cloud, it could be hosted using the following services:
+
+- **AWS:** Amazon EC2
+- **Microsoft Azure:** Azure Virtual Machines
+- **Google Cloud Platform:** Google Compute Engine
+
+These services provide virtual machines that can run Linux operating systems in the cloud.
