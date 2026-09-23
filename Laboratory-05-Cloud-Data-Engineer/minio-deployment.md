@@ -9,31 +9,20 @@ docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 minio/minio server /data --console-address ":9001"
 ```
 
-This command runs the MinIO server using Docker.
+This command was used to deploy the MinIO server using Docker.
 
 ## Port Used for Web Console
 
-The MinIO Web Console uses port `9001`.
-
-Port `9000` is used for the MinIO API.
+The MinIO Web Console can be accessed using port `9001`.
 
 ## Bucket Created
 
-The bucket created for the client is:
-
-```text
-client-photos
-```
-
-The `client-photos` bucket stores the uploaded sample file.
+The bucket created for the client is: `client-photos`
 
 ## Environment Variables
 
-The MinIO container uses the following environment variables:
+The `-e` flags were used to set the environment variables for the MinIO server.
 
-```bash
-MINIO_ROOT_USER=cloudadmin
-MINIO_ROOT_PASSWORD=CloudNova2026!
-```
+`MINIO_ROOT_USER=cloudadmin` sets the username for the MinIO Web Console.
 
-The username is `cloudadmin`, and the password is `CloudNova2026!`. These are used to log in to the MinIO Web Console.
+`MINIO_ROOT_PASSWORD=CloudNova2026!` sets the password for the MinIO Web Console.
