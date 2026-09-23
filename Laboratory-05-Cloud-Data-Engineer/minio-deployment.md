@@ -9,13 +9,11 @@ docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 minio/minio server /data --console-address ":9001"
 ```
 
-This command was used to deploy the MinIO server using Docker. It also sets the ports and login credentials for the server.
+This Docker command deploys the MinIO server inside a Docker container. It also sets the ports and login credentials needed to access the MinIO Web Console.
 
 ## Port Used for Web Console
 
-The MinIO Web Console uses port `9001`.
-
-Port `9000` is used for the MinIO API.
+The MinIO Web Console uses port 9001. I used this port to access the MinIO Web Console through a web browser.
 
 ## Bucket Created
 
