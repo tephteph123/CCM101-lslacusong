@@ -19,7 +19,11 @@ Port `9000` is used for the MinIO API.
 
 ## Bucket Created
 
-The bucket created for the client is: `client-photos`
+The bucket created for the client is:
+
+```text
+client-photos
+```
 
 The `client-photos` bucket stores the uploaded sample file.
 
