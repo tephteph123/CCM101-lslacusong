@@ -1,4 +1,4 @@
-# Mission 8: The Cloud Security Engineer
+# Laboratory 8: The Cloud Security Engineer
 
 ## Mission Overview
 
